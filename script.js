@@ -128,6 +128,30 @@ const anotherProductsSorted = anotherProducts.sort((a, b) =>{
 console.log(anotherProductsSorted);
 
 
+// **Задание 5**
+// Дано 2 массива 
+const en = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
+const ru = ["понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"];
+// Вам необходимо объединить 2 этих массива, чтобы значения первого массива были ключами, а значения 
+// второго массива — значениями.
+
+console.log('Задача 5');
+let arr = [];
+for (let index = 0; index < en.length; index++) {
+    arr[en[index]] = ru[index];
+}
+console.log(arr);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
